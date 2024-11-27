@@ -19,7 +19,7 @@ public class Ahorcado {
         }
 
         while (!palabraAdivinada && intentos < intentosMaximos) {
-            System.out.println("Palabra a Adivinar " + String.valueOf(letrasAdivinadas)+ " ("+ palabraSecreta.length()+ " letras)k"); //valueOf se usa cuando una palabra esta construida a partir de un arreglo de char
+            System.out.println("Palabra a Adivinar " + String.valueOf(letrasAdivinadas)+ " ("+ palabraSecreta.length()+ " letras)"); //valueOf se usa cuando una palabra esta construida a partir de un arreglo de char
             //No es lo mismo un string formado a partir de un array de chars que una cadena
             System.out.println("Introduce una letra, por favor");
 
